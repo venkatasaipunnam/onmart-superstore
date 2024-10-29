@@ -1,0 +1,59 @@
+.credit-card-input {
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card {
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card-header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.card-body {
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.card-number input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.card-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.card-details input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.card-holder input {
+  width: 200px;
+}
+
+.card-expiry input {
+  width: 100px;
+}
+
+.card-csv input {
+  width: 80px;
+}

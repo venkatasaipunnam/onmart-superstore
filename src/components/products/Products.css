@@ -1,0 +1,59 @@
+/* Product View Page CSS */
+.product-view-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .accordion {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .accordion-item {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .accordion-item:last-child {
+    border-bottom: none;
+  }
+  
+  .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+    cursor: pointer;
+  }
+  
+  .accordion-header h3 {
+    margin: 0;
+  }
+  
+  .arrow {
+    transition: transform 0.3s ease;
+  }
+  
+  .arrow.open {
+    transform: rotate(180deg);
+  }
+  
+  .accordion-content {
+    padding: 10px;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease;
+  }
+  
+  .accordion-content.open {
+    max-height: 500px; /* Adjust the value as needed */
+  }
+  
+  .review {
+    margin-bottom: 20px;
+  }
+  
+  .review h4 {
+    margin-bottom: 5px;
+  }

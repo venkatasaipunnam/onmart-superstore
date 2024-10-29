@@ -1,0 +1,38 @@
+.thumbnail-component {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    text-decoration: none;
+    color: black;
+}
+
+.thumbnail-component div {
+    background-color: #fdd5af;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.thumbnail-component img {
+    max-width: 120px;
+    max-height: 120px;
+    transition: transform 333ms ease;
+}
+
+.thumbnail-component p {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 9px 0 0;
+    font-size: 21px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.thumbnail-component:hover img {
+    transform: scale(1.2);
+}

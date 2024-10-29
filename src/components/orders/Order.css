@@ -1,0 +1,101 @@
+/* Order History Page CSS */
+.order-history-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .order-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .order-item {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  .order-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .order-details {
+    margin-top: 10px;
+  }
+  
+  .order-details h4 {
+    margin-bottom: 5px;
+  }
+  
+  .order-details ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Cart Page CSS */
+.cart-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.cart-items {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.item-info {
+  flex-grow: 1;
+  margin-right: 20px;
+}
+
+.item-actions {
+  display: flex;
+  align-items: center;
+}
+
+.item-actions label {
+  margin-right: 10px;
+}
+
+.item-actions input {
+  width: 50px;
+  text-align: center;
+}
+
+.item-actions button {
+  margin-left: 10px;
+}
+
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.cart-total button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
